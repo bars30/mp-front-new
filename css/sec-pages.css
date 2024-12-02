@@ -1,0 +1,26 @@
+
+@media only screen and (max-width: 1205px){
+ .container {
+  width: 38%;
+ }
+}
+@media only screen and (max-width: 1005px){
+ .container {
+  width: 48%;
+ }
+}
+@media only screen and (max-width: 805px){
+ .container {
+  width: 48%;
+ }
+}
+@media only screen and (max-width: 605px){
+ .container {
+  width: 80%;
+}
+}
+@media only screen and (max-width: 375px){
+ h1 {
+  font-size: 18px;
+ }
+}

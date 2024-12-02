@@ -1,0 +1,71 @@
+
+@media only screen and (max-width: 1040px){
+  .spreadsheet {
+    overflow-x: scroll;
+  }
+}
+@media only screen and (max-width: 1050px){
+  .row {
+    grid-template-columns: 30px 100px 200px 125px repeat(2, minmax(100px, 1fr));
+  }
+}
+@media only screen and (max-width: 810px){
+  .row {
+    grid-template-columns: 30px 100px 200px 125px 180px 180px;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  h3.email {
+    font-size: 14px;
+  }
+  .cell-cont button {
+    font-size: 11px;
+    padding: 5px 21px; 
+  }
+  .rate-input-container {
+    font-size: 15px;
+  }
+  .rate-input-container input {
+    width: 75px;
+  }
+}
+@media only screen and (max-width: 900px){
+  .notification h2 {
+    font-size: 23px;
+  }
+  .notification h4 {
+    width: 60%;
+  }
+  .notification a {
+    font-weight: 600;
+    padding: 7px 20px;
+  }
+}
+@media only screen and (max-width: 700px){
+  .notification h4 {
+    width: 90%;
+    font-size: 15px;
+}
+  .notification h2 {
+    font-size: 22px;
+}
+}
+@media only screen and (max-width: 550px){
+  .notification h2 {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.notification h4 {
+  width: 100%;
+  font-size: 14.5px;
+}
+}
+@media only screen and (max-width: 425px){
+  .notification h2 {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+}
+
+

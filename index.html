@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Spreadsheet Application</title>
+
+ <meta name="description" content="Spreadsheet Application - a simple and convenient way to manage finances with interest calculations.">
+ <meta name="keywords" content="Spreadsheet, Finance, Interest Calculation, Investment Management, Budgeting, Savings, Financial Planning">
+ <meta name="twitter:image:alt" content="Spreadsheet Application preview with finance management features">
+ <meta name="robots" content="index, follow">
+
+  <meta property="og:title" content="Spreadsheet Application">
+  <meta property="og:description" content="Manage your finances with an easy-to-use spreadsheet. Suitable for all needs!">
+  <meta property="og:image" content="./img/01.png">
+  <meta name="twitter:card" content="./img/01.png">
+  <meta name="twitter:title" content="Spreadsheet Application">
+  <meta name="twitter:description" content="Manage your finances with an easy-to-use spreadsheet. Suitable for all needs!">
+  <meta name="twitter:image" content="./img/01.png">
+
+
+ <link rel="stylesheet" href="./css/home.css">
+ <link rel="stylesheet" href="./css/style.css">
+ <link rel="stylesheet" href="./css/home-res.css">
+
+ <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5564367862023665" 
+    crossorigin="anonymous"></script> -->
+</head>
+<body>
+  <header class="site-header">
+    <img src="./img/logo.png" alt="Site Logo">
+</header>
+
+<!-- <div class="container">
+  <div class="ad-space-bottom">
+    <p>Ad space for Google Ads </p>
+  </div>
+</div> -->
+
+<div class="cell-cont">
+  <div class="container toolbar-cont">
+    <div class="user_cont">
+      <div class="user-img_cont">
+        <img src="./img/user1.png" alt="">
+      </div>
+    <h3 class="email"></h3>
+    </div>
+    <div class="button_cont">
+      <button onclick="signOut()" class="signOutButton">Sign Out</button>
+    </div>
+   </div>
+
+   <div class="rate-input-container">
+    <label for="customRate">Set default rate:</label>
+    <input type="number" id="customRate" value="1" oninput="handleCustomRate()" class="cell" style="background-color: #F4F5F5;" />
+  </div>
+   <div class="container spreadsheet" id="spreadsheet-cont">
+    <div id="spreadsheet" class="spreadsheet">
+      <div class="row" id="row">
+        <div class="row-number">1</div>
+        <input type="text" id="A1" class="cell" oninput="updateCells()"  value="Year" disabled>
+        <input type="text" id="D1" class="cell" oninput="updateCells()"  value="Yearly Contribution (Jan 1)" disabled>
+        <input type="text" id="E1" class="cell" oninput="updateCells()"  value="Rate" disabled>
+        <input type="text" id="F1" class="cell" oninput="updateCells()"  value="Interest (Dec 31)" disabled>
+        <input type="text" id="G1" class="cell" oninput="updateCells()"  value="Totals (Dec 31)" disabled>
+
+
+      </div>
+    </div>
+   </div>
+   <div class="container spreadsheet-btn">
+    <button onclick="addRow()">Add Row</button>
+    <button onclick="exportToCSV()">Export as CSV</button>
+   </div>
+   <button onclick="refresh()">refresh</button>
+   <button onclick="getUsers()">get user</button>
+</div>
+
+<div class="notification">
+  <h2>Create an account to gain access</h2>
+  <h4>This feature is exclusively available to users with an account. If you don't have an account yet, you can easily create one to gain full access.</h4>
+  <a href="./reg.html">Login</a>
+</div>
+
+<script  src="./js/home.js"></script>
+</body>
+</html>

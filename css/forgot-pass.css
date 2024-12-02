@@ -1,0 +1,86 @@
+.container {
+ text-align: center;
+ width: 26%;
+}
+h1 {
+  font-size: 22px;
+  color: black;
+  margin-bottom: 12px;
+}
+h4 {
+ color: black;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+input {
+ margin-top: 5px;
+ width: 100%;
+}
+.forgot-pass, .reset-pass {
+ display: flex;
+ align-items: center;
+ height: 50vh;
+}
+@media only screen and (max-width: 768px){
+ h1 {
+  font-size: 25px;
+}
+}
+@media only screen and (max-width: 500px){
+ h1 {
+  font-size: 20px;
+ }
+ h4 {
+  font-size: 17px;
+ }
+}
+@media only screen and (max-width: 425px){
+ h1 {
+  font-size: 19px;
+ }
+}
+@media only screen and (max-width: 500px){
+ h1 {
+  font-size: 16px;
+ }
+ h4 {
+  font-size: 15px;
+ }
+}
+button {
+ cursor: pointer;
+}
+div#reset-password {
+ width: 21%;
+ margin: auto;
+}
+label {
+ display: block;
+ text-align: left;
+}
+
+.forgot-pass input {
+  margin: 6px 0 12px 0;
+  width: 100%;
+}
+.forgot-pass label {
+ text-align: left;
+ font-size: 13px;
+}
+button {
+  padding: 8px 21px;
+  border-radius: 71px;
+  background-color: #a1e871;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  font-weight: 700;
+  margin-bottom: 15px;
+  transition: all 0.2s ease-in;
+}
+button:hover {
+  background-color: #67c02b;
+}

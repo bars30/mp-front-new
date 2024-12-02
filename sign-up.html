@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register page</title>
+
+  <meta name="description" content="Create an account to join our community and access exclusive features. Sign up for a free account.">
+  <meta name="keywords" content="sign up, registration, create account, join, user account">
+  <meta name="robots" content="index, follow"> 
+  <meta name="theme-color" content="#e8eef8"> 
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/start.css">
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5564367862023665" 
+    crossorigin="anonymous"></script>
+</head> 
+<body>
+  <header class="site-header">
+    <img src="./img/logo.png" alt="Site Logo">
+  </header>
+
+  <div class="container">
+    <div class="ad-space-bottom">
+      <p>Ad space for Google Ads </p>
+    </div>
+  </div>
+
+  <div class="cont">
+    <div id="register">
+      <h2>Register</h2>
+      <div class="sign-up">
+        <p>Already have an account?</p>
+        <a href="./reg.html">Sign In</a>
+      </div>
+      <form id="registerForm">
+        <label> Your email address <br>
+          <input type="email" id="registerEmail" placeholder="Email" required>
+          <small id="emailError" style="color: red; display: none;">Please enter a valid email address.</small>
+        </label>
+        <label> Your password <br>
+          <input type="password" id="registerPassword" placeholder="Password" required minlength="4">
+          <small id="passwordError" style="color: red; display: none;">Password must be at least 4 characters long.</small>
+        </label>
+        <button type="submit" id="signUpBtn" disabled>Sign Up</button>
+      </form>
+    </div>  
+  </div>
+
+  <script type="module" src="./js/sign.js"></script>
+  <script src="./js/sign-in-validation.js"></script>
+</body>
+</html>
